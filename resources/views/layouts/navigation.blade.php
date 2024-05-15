@@ -16,6 +16,26 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('users')" :active="request()->routeIs('users')">
+                        {{ __('Ver Usuarios') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('register_users')" :active="request()->routeIs('register_users')">
+                        {{ __('Registrar Usuarios') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('doctors')" :active="request()->routeIs('doctors')">
+                        {{ __('Ver Doctores') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('register_doctors')" :active="request()->routeIs('register_doctors')">
+                        {{ __('Registrar Doctores') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

@@ -27,7 +27,7 @@
                                     <th scope="col" class="px-6 py-3">Fecha de Nacimiento</th>
                                     <th scope="col" class="px-6 py-3">Género</th>
                                     <th scope="col" class="px-6 py-3">Rol</th>
-                                    <th scope="col" class="px-6 py-3">Usuario</th>
+                                    <th scope="col" class="px-6 py-3">Correo</th>
                                     <th scope="col" class="px-6 py-3">Contraseña</th>
                                     <th scope="col" class="px-6 py-3">Action</th>
                                 </tr>
